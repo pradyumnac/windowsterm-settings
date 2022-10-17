@@ -1,7 +1,8 @@
 {
 	"dismissedMessages" : 
 	[
-		"setAsDefault"
+		"setAsDefault",
+		"closeOnExitInfo"
 	],
 	"generatedProfiles" : 
 	[
