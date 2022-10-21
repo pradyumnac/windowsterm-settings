@@ -4,12 +4,12 @@
     "actions": 
     [
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
         },
         {
             "command": 
@@ -20,12 +20,12 @@
             "keys": "ctrl+alt+l"
         },
         {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": 
@@ -39,14 +39,6 @@
         {
             "command": 
             {
-                "action": "switchToTab",
-                "index": 1
-            },
-            "keys": "ctrl+2"
-        },
-        {
-            "command": 
-            {
                 "action": "splitPane",
                 "split": "left"
             },
@@ -55,6 +47,14 @@
         {
             "command": "closeWindow",
             "keys": "ctrl+shift+w"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 1
+            },
+            "keys": "ctrl+2"
         },
         {
             "command": "closePane",
@@ -123,18 +123,18 @@
         {
             "command": 
             {
-                "action": "splitPane",
-                "split": "down"
-            },
-            "keys": "ctrl+alt+j"
-        },
-        {
-            "command": 
-            {
                 "action": "switchToTab",
                 "index": 3
             },
             "keys": "ctrl+4"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "down"
+            },
+            "keys": "ctrl+alt+j"
         },
         {
             "command": 
@@ -181,19 +181,40 @@
         "list": 
         [
             {
-                "colorScheme": "Solarized Dark",
+                "colorScheme": "One Half Dark",
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
                 "name": "Ubuntu",
-                "opacity": 80,
+                "opacity": 75,
+                "padding": "8",
                 "source": "Windows.Terminal.Wsl",
-                "startingDirectory": "~"
+                "startingDirectory": "~",
+                "useAcrylic": true
             },
             {
+                "colorScheme": "Campbell",
+                "commandline": "bash",
+                "guid": "{6984c9e9-5032-449e-a893-cc647ced95ed}",
+                "hidden": false,
+                "name": "Bash",
+                "opacity": 75,
+                "padding": "8",
+                "startingDirectory": "~",
+                "useAcrylic": true
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "font": 
+                {
+                    "face": "Fira Code"
+                },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt",
-                "startingDirectory": "%USERPROFILE%"
+                "opacity": 75,
+                "padding": "8",
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": true
             },
             {
                 "colorScheme": "Solarized Dark",
@@ -202,13 +223,19 @@
                 "guid": "{d184ece4-9ffb-4bfc-b1a3-cfe39a9733cf}",
                 "hidden": false,
                 "icon": "ms-appx:///ProfileIcons/pwsh.png",
-                "name": "PowerShell(Non Admin)"
+                "name": "PowerShell(Non Admin)",
+                "opacity": 75,
+                "padding": "8",
+                "startingDirectory": null,
+                "useAcrylic": true
             },
             {
+                "colorScheme": "Campbell Powershell",
                 "elevate": true,
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell(Admin)",
+                "padding": "8",
                 "source": "Windows.Terminal.PowershellCore"
             }
         ]
