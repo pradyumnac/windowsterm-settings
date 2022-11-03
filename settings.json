@@ -159,7 +159,7 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-    "launchMode": "fullscreen",
+    "launchMode": "default",
     "profiles": 
     {
         "defaults": 
@@ -168,7 +168,7 @@
             "closeOnExit": "graceful",
             "font": 
             {
-                "face": "Fira Code Retina",
+                "face": "FiraCode NFM Retina",
                 "size": 11
             },
             "intenseTextStyle": "bold",
@@ -181,7 +181,11 @@
         "list": 
         [
             {
-                "colorScheme": "One Half Dark",
+                "colorScheme": "Gruvbox Dark",
+                "font": 
+                {
+                    "face": "FiraCode NFM Retina"
+                },
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
                 "name": "Ubuntu",
@@ -192,7 +196,7 @@
                 "useAcrylic": true
             },
             {
-                "colorScheme": "Campbell",
+                "colorScheme": "Zenburn",
                 "commandline": "bash",
                 "guid": "{6984c9e9-5032-449e-a893-cc647ced95ed}",
                 "hidden": false,
@@ -287,6 +291,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "background": "#1E1E1E",
+            "black": "#1E1E1E",
+            "blue": "#377375",
+            "brightBlack": "#7F7061",
+            "brightBlue": "#719586",
+            "brightCyan": "#7DB669",
+            "brightGreen": "#AAB01E",
+            "brightPurple": "#C77089",
+            "brightRed": "#F73028",
+            "brightWhite": "#E6D4A3",
+            "brightYellow": "#F7B125",
+            "cursorColor": "#E6D4A3",
+            "cyan": "#578E57",
+            "foreground": "#E6D4A3",
+            "green": "#868715",
+            "name": "Gruvbox Dark",
+            "purple": "#A04B73",
+            "red": "#BE0F17",
+            "selectionBackground": "#E6D4A3",
+            "white": "#978771",
+            "yellow": "#CC881A"
         },
         {
             "background": "#282C34",
@@ -448,6 +475,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
+        },
+        {
+            "background": "#3F3F3F",
+            "black": "#4D4D4D",
+            "blue": "#506070",
+            "brightBlack": "#709080",
+            "brightBlue": "#94BFF3",
+            "brightCyan": "#93E0E3",
+            "brightGreen": "#C3BF9F",
+            "brightPurple": "#EC93D3",
+            "brightRed": "#DCA3A3",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#E0CF9F",
+            "cursorColor": "#73635A",
+            "cyan": "#8CD0D3",
+            "foreground": "#DCDCCC",
+            "green": "#60B48A",
+            "name": "Zenburn",
+            "purple": "#DC8CC3",
+            "red": "#705050",
+            "selectionBackground": "#21322F",
+            "white": "#DCDCCC",
+            "yellow": "#F0DFAF"
         }
     ],
     "theme": "dark",
