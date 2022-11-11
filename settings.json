@@ -159,7 +159,7 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-    "launchMode": "default",
+    "launchMode": "fullscreen",
     "profiles": 
     {
         "defaults": 
@@ -500,6 +500,7 @@
             "yellow": "#F0DFAF"
         }
     ],
+    "startOnUserLogin": false,
     "theme": "dark",
     "windowingBehavior": "useAnyExisting"
 }
